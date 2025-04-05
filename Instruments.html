@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Instruments</title>
+</head>
+<body>
+        <header>
+                <h1>ArmenianDuduk.am</h1>
+               <p><strong>
+                        Armenian Duduk, Bass Duduk, Zurna, Reed,
+                        Shvi Made by Arthur H. Grigoryan -GHA-</strong></p>
+            </header>
+            
+            <nav>
+                <a href="Glavniy.html">Home</a>
+                <a href="About.html">About</a>
+                <a style="background-color: brown " href="#">Instruments</a>
+               
+                <a class="cont" href="contact.html">Contact</a>
+                <a href="teachers.html">Teachers</a>
+        <a href="articles.html">Articles</a>
+        <a href="artists.html">Artists</a>
+                
+                
+                <br>
+            </nav>
+            <div >
+                
+               
+    <h2 class="art-PostHeader">
+        Instruments
+    </h2>
+
+<div class="ynd">
+<p style="font-family: roboto; font-size: 25px;"><strong>Armenian Duduk, Bass Duduk, Reed, Zurna, Shvi made by Arthur H. Grigoryan</strong></p>
+<br>
+<br>
+
+
+<div class="gallery-container">
+    <p class="gallery-heading">Image Gallery</p>
+    <div class="d-flex">
+        <div class="inst"><img src="imgs/inst1.png" alt="inst1"></div>
+        <div class="inst"><img src="imgs/inst2.png" alt="inst2"></div>
+        <div class="inst"><img src="imgs/inst3.png" alt="inst3"></div>
+    </div>
+</div>
+<br>
+<p class="pls">For more details (shipping, prices etc.) please go to <br /><a href="contact.html">contact page</a></p>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<footer>
+        &copy; 2025 ArmenianDuduk.am | All Rights Reserved.
+    </footer>
+    </html>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #e9cd92;
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+        }
+        header {
+            background-color: #333;
+            color: black;
+            padding: 20px;
+            text-align: left;
+            background-image: url('head.jpg')  ;
+            font-style: oblique;
+            background-size: cover;
+                    
+
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 15px;
+        }
+        nav a:hover {
+            background-color: #555;
+            border-radius: 15px;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .art-PostHeader{
+            text-align: center;
+            color: brown;
+            padding: 25px;
+            font-size: 45px;
+            font-family: roboto;
+        }
+        * {box-sizing:border-box}
+        .gallery-container {
+    text-align: center;
+    margin: 5rem auto; /* Center the gallery */
+    padding: 60px; /* Increased padding for a larger look */
+    max-width: 1200px; /* Increased max width for the gallery */
+    background-color: #f0e5d8; /* White background for contrast */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.gallery-heading {
+    font-size: 60px; /* Increased font size */
+    color: brown; /* Brown color for the heading */
+    margin-bottom: 40px; /* Increased space below the heading */
+    font-family: roboto;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px; /* Increased space between images */
+    flex-wrap: wrap; /* Allow wrapping */
+}
+
+.inst {
+    flex: 1 1 30%; /* Flex item to grow and shrink */
+    max-width: 350px; /* Set a larger max width */
+    overflow: hidden; /* Hide overflow */
+    border-radius: 8px; /* Rounded corners for images */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow for images */
+    transition: transform 0.3s; /* Smooth transform on hover */
+}
+
+.inst img {
+    width: 100%; /* Responsive images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.inst:hover {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+@media (max-width: 600px) {
+    .inst {
+        flex: 1 1 100%; /* Stack images on smaller screens */
+        max-width: 100%; /* Full width */
+    }
+}
+        .ynd{
+            font-family: 15px;
+            padding: 0px;
+            text-align: center;
+        }
+        .pls{
+            font-size: 20px;
+            padding: 9px;
+            text-align: center;
+        }
+        @media (min-width: 300px){
+            .art-PostHeader{
+            text-align: left;
+        }
+        nav {
+            padding: 10px 20px;
+           
+
+        }
+        .ynd{
+            text-align: left;
+            margin-left: 24px;
+            margin-right: 20px;
+        }
+        }
+        @media (min-width: 460px){
+            .art-PostHeader{
+            text-align: center;
+            
+        }
+        nav {
+            padding: 10px 20px;
+            
+        }
+        .ynd{
+            text-align: center;
+            margin-left: 0px;
+            
+        }
+        }
+        @media (max-width: 600px) {
+            nav{
+                display: grid;
+            }
+        }
+        @media (min-width: 600px){
+            nav{
+                display: block;
+            }
+        }
+
+
+    </style>
+
